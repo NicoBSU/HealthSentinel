@@ -1,19 +1,19 @@
 version: "3"
 services:
   hs-auth:
-    build: ./HS-AUTH/
+    build: ../HS-AUTH/
     ports: 
       - "8080:8080"
   hs-pharmacy:
-    build: ./HS-PHARMACY/
+    build: ../HS-PHARMACY/
     ports: 
       - "8081:8081"
   hs-therahab:
-    build: ./HS-THERAHAB/
+    build: ../HS-THERAHAB/
     ports: 
       - "8082:8082"
   hs-treatment:
-    build: ./HS-TREATMENT/
+    build: ../HS-TREATMENT/
     ports: 
       - "8083:8083"
   
